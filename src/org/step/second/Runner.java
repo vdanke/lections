@@ -1,23 +1,21 @@
 package org.step.second;
 
+import org.step.second.data.UserData;
 import org.step.second.model.User;
-import org.step.second.service.UserCounter;
-
-import java.util.Arrays;
+import org.step.second.service.UserService;
+import org.step.second.service.impl.UserServiceImpl;
 
 public class Runner {
 
     public static void main(String[] args) {
-        UserCounter userCounter = new UserCounter(Arrays.asList(
-                new User((long) 1, "first", "firstpassword"),
-                new User((long) 2, "second", "secondpassword"),
-                new User((long) 3, "third", "thirdpassword")
-        ));
+        UserService<User> userService = new UserServiceImpl();
 
-        User user = new User((long) 1, "first", "firstpassword");
-        int userCount = userCounter.getUserCount();
+        User byId = userService.findById(4L);
 
-        System.out.println(userCount);
-        System.out.println(user.equals(userCounter.getUserList().get(0)));
+        System.out.println(byId.getUsername());
+
+//        User save = userService.save(new User("fourth", "fourth"));
+//
+//        System.out.println(save.getId());
     }
 }

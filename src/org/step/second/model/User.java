@@ -2,13 +2,18 @@ package org.step.second.model;
 
 import org.step.second.IdStringViewer;
 
-public class User implements IdStringViewer<String> {
+public class User extends Person implements IdStringViewer<String>, Comparable<User> {
 
     private Long id;
     private String username;
     private String password;
 
     public User() {
+    }
+
+    public User(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
     public User(Long id, String username, String password) {
@@ -44,6 +49,17 @@ public class User implements IdStringViewer<String> {
     @Override
     public String getIdAsString() {
         return this.id.toString();
+    }
+
+    @Override
+    public int compareTo(User user) {
+        if (this.id > user.getId()) {
+            return -1;
+        }
+        if (this.id < user.getId()) {
+            return 1;
+        }
+        return 0;
     }
 
     @Override
