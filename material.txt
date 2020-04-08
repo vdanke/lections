@@ -1,3 +1,6 @@
 1. https://www.youtube.com/watch?v=-S_huEuNJiU&list=PL6jg6AGdCNaWtTjsYJ9t0VaITpIZm4pMt - Коллекции
 2. https://www.youtube.com/watch?v=DKy4KzIn1qg&list=PLB0276A0A62BDEF06 - Java для тестировщиков, хорошее объяснение,
-в плейлист про аннотации, коллекции так же есть
+    в плейлисте про аннотации, коллекции так же есть
+3. Java потоки ввода-вывода - Часть 1 https://www.youtube.com/watch?v=jSCmYlY_Cfs,
+    часть 2 https://www.youtube.com/watch?v=OFy9eQUszG4
+4. https://www.youtube.com/watch?v=PcwXTCWRGvY&list=PL6jg6AGdCNaXYzZwvvZ-3NRTr63XeYazS - Сериализация - диссериализация
