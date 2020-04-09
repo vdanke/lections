@@ -4,3 +4,4 @@
 3. Java потоки ввода-вывода - Часть 1 https://www.youtube.com/watch?v=jSCmYlY_Cfs,
     часть 2 https://www.youtube.com/watch?v=OFy9eQUszG4
 4. https://www.youtube.com/watch?v=PcwXTCWRGvY&list=PL6jg6AGdCNaXYzZwvvZ-3NRTr63XeYazS - Сериализация - диссериализация
+5. https://www.youtube.com/watch?v=s032s29-NUU&list=PL6jg6AGdCNaXo06LjCBmRao-qJdf38oKp - Потокобезопасность

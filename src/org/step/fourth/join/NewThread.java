@@ -5,6 +5,9 @@ public class NewThread implements Runnable {
     private String threadName;
     private Thread thread;
 
+    public NewThread() {
+    }
+
     public NewThread(String threadName) {
         this.threadName = threadName;
         thread = new Thread(this, threadName);

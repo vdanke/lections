@@ -6,6 +6,6 @@ public class DaemonThread extends Thread {
 
     @Override
     public void run() {
-        ThreadSupportUtil.cycleThreadRunner("Demon is running", 1000);
+        new ThreadSupportUtil().cycleThreadRunner("Demon is running", 1000);
     }
 }

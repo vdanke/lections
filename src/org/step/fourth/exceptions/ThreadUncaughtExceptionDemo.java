@@ -15,7 +15,7 @@ public class ThreadUncaughtExceptionDemo {
 
     static class SimpleThread implements Runnable {
         public void run() {
-            throw new RuntimeException("It is a greate exception.");
+            throw new RuntimeException("It is a great exception.");
         }
     }
 }

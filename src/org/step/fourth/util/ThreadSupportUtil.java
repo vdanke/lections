@@ -2,8 +2,13 @@ package org.step.fourth.util;
 
 public class ThreadSupportUtil {
 
-    public static void cycleThreadRunner(String active, int sleep) {
-        for (int i = 0; i < 8; i++) {
+    private int cycle = 8;
+
+    public void cycleThreadRunner(String active, int sleep) {
+        if (cycle == 0) {
+            cycle = 8;
+        }
+        for (int i = 0; i < cycle; i++) {
             System.out.println(active);
             try {
                 Thread.sleep(sleep);
@@ -11,5 +16,9 @@ public class ThreadSupportUtil {
                 e.printStackTrace();
             }
         }
+    }
+
+    public void setCycle(int cycle) {
+        this.cycle = cycle;
     }
 }

@@ -6,6 +6,6 @@ public class Walk implements Runnable {
 
     @Override
     public void run() {
-        ThreadSupportUtil.cycleThreadRunner("Walking", 400);
+        new ThreadSupportUtil().cycleThreadRunner("Walking", 400);
     }
 }

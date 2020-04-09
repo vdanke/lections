@@ -13,6 +13,7 @@ public class ThreadExample {
         System.out.println("Текущий поток: " + current);
 
         current.setName("My thread");
+        current.setPriority(Thread.MAX_PRIORITY);
 
         System.out.println("Поток после изменения имени: " + current);
 

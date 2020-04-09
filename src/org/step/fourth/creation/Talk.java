@@ -6,6 +6,6 @@ public class Talk extends Thread {
 
     @Override
     public void run() {
-        ThreadSupportUtil.cycleThreadRunner("Talking", 400);
+        new ThreadSupportUtil().cycleThreadRunner("Talking", 400);
     }
 }
