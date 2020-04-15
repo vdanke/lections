@@ -6,3 +6,5 @@
 4. https://www.youtube.com/watch?v=PcwXTCWRGvY&list=PL6jg6AGdCNaXYzZwvvZ-3NRTr63XeYazS - Сериализация - диссериализация
 5. https://www.youtube.com/watch?v=s032s29-NUU&list=PL6jg6AGdCNaXo06LjCBmRao-qJdf38oKp - Потокобезопасность
 6. https://www.youtube.com/watch?v=RzEiCguFZiY&t=1360s - Stream API
+7. https://www.youtube.com/watch?v=lTAmF0tB3e4&t=2693s - JUnit, AssertJ, Mockito тестирование в Java
+   https://javarush.ru/groups/posts/605-junit, https://javarush.ru/groups/posts/606-junit-part-ii - JUnit простыми словами
